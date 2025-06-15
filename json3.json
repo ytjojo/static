@@ -1,0 +1,41 @@
+{
+    "testItems": [{
+          "name": "新冠",
+          "itemCode":"covid19",
+          "result": "阳性",
+    "riskLevel": "高风险",
+    "referenceRange":"阴性"},
+    {
+          "name": "甲流",
+          "itemCode":"fluA",
+          "result": "阴性",
+    "riskLevel": "低风险",
+    "referenceRange":"阴性"},
+    {
+          "name": "乙流",
+          "itemCode":"fluB",
+          "result": "阳性",
+    "riskLevel": "高风险",
+    "referenceRange":"阴性"}
+    ],
+    "testTime": "2022-01-01 00:00:00",
+
+    "suggestion": "建议多休息，多喝水，保持室内通风，必要时就医。",
+    "important_reminders": "重要提醒",
+    "medicines": [ {  "id": "1",
+                  "name": "布洛芬",
+                  "spec": "0.2g*10片",
+                  "price": "15.8",
+                  "quantity": "1",
+                   "pictureUrl":"",
+                    "applicable_population": "轻中症成人高危患者（发病5天内）",
+                    "advantage": "药物相互作用较少，适用于无法使用Paxlovid的患者",
+                    "notes": [
+                     "孕妇、哺乳期禁用，中重度肝肾损伤者慎用",
+                        "需避孕至停药后4天"
+                    ],
+                    "usage": "空腹⼝服，推荐剂量5mg/次，每⽇1次，疗程≤14天。"
+                  }
+
+            ]
+}
