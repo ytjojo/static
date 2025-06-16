@@ -1,0 +1,55 @@
+{
+    "testItems": [
+      {
+        "name": "新冠",
+        "itemCode": "covid19",
+        "result": "阴性",
+        "riskLevel": "低风险",
+        "referenceRange": "阴性"
+      },
+      {
+        "name": "甲流",
+        "itemCode": "fluA",
+        "result": "阳性",
+        "riskLevel": "低风险",
+        "referenceRange": "阴性"
+      },
+      {
+        "name": "乙流",
+        "itemCode": "fluB",
+        "result": "阴性",
+        "riskLevel": "低风险",
+        "referenceRange": "阴性"
+      }
+    ],
+    "testTime": "2023-10-15 14:30:00",
+    "suggestion": "建议多休息，多喝水，保持室内通风，必要时就医。",
+    "key_medication_reminders": "1. 48小时黄金期：抗病毒药越早用效果越好，超过48小时的重症患者仍可尝试。\n2. 处方药限制：所有抗病毒药均需医生开具，不可自行购买。\n3. 避免混合用药：\n   ◦ 玛巴洛沙韦忌与乳制品/钙剂同服；\n   ◦ 退热药不与中成药随意联用。",
+    "important_reminders": "1. 高危人群优先：老年人、慢性病患者、婴幼儿出现高热不退、呼吸急促时需立即就医。",
+    "medicines": [
+      {
+        "id": "9",
+        "name": "奥司他韦",
+        "spec": "75mg*10粒",
+        "price": "98",
+        "quantity": "1",
+        "pictureUrl": "https://wx4.sinaimg.cn/mw690/afaa23fbly1hxit8tokzyj20zk0zkdku.jpg",
+        "applicable_population": "甲/乙流患者（发病48小时内最佳）",
+        "advantage": "神经氨酸酶抑制剂，流感一线用药",
+        "notes": ["可能引起呕吐等胃肠道反应", "肾功能不全需调整剂量"],
+        "usage": "成人75mg/次，每日2次，疗程5天"
+      },
+      {
+        "id": "10",
+        "name": "玛巴洛沙韦",
+        "spec": "20mg*2片",
+        "price": "220",
+        "quantity": "1",
+        "pictureUrl": "https://imgcdn.baiji.com.cn/images/202107/source_img/19094_P_1625797968182.jpg",
+        "applicable_population": "5岁以上且体重≥20kg的流感患者",
+        "advantage": "全程仅需单次给药",
+        "notes": ["避免与乳制品同服", "妊娠期安全性数据有限"],
+        "usage": "体重40-80kg用40mg；＞80kg用80mg（单次）"
+      }
+    ]
+  }

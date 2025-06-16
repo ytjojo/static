@@ -1,41 +1,65 @@
-{
-    "testItems": [{
-          "name": "新冠",
-          "itemCode":"covid19",
-          "result": "阳性",
-    "riskLevel": "高风险",
-    "referenceRange":"阴性"},
-    {
-          "name": "甲流",
-          "itemCode":"fluA",
-          "result": "阴性",
-    "riskLevel": "低风险",
-    "referenceRange":"阴性"},
-    {
-          "name": "乙流",
-          "itemCode":"fluB",
-          "result": "阳性",
-    "riskLevel": "高风险",
-    "referenceRange":"阴性"}
+ {
+    "testItems": [
+      {
+        "name": "新冠",
+        "itemCode": "covid19",
+        "result": "阴性",
+        "riskLevel": "低风险",
+        "referenceRange": "阴性"
+      },
+      {
+        "name": "甲流",
+        "itemCode": "fluA",
+        "result": "阴性",
+        "riskLevel": "低风险",
+        "referenceRange": "阴性"
+      },
+      {
+        "name": "乙流",
+        "itemCode": "fluB",
+        "result": "阳性",
+        "riskLevel": "高风险",
+        "referenceRange": "阴性"
+      }
     ],
-    "testTime": "2022-01-01 00:00:00",
-
+    "testTime": "2023-10-15 14:30:00",
     "suggestion": "建议多休息，多喝水，保持室内通风，必要时就医。",
-    "important_reminders": "重要提醒",
-    "medicines": [ {  "id": "1",
-                  "name": "布洛芬",
-                  "spec": "0.2g*10片",
-                  "price": "15.8",
-                  "quantity": "1",
-                   "pictureUrl":"",
-                    "applicable_population": "轻中症成人高危患者（发病5天内）",
-                    "advantage": "药物相互作用较少，适用于无法使用Paxlovid的患者",
-                    "notes": [
-                     "孕妇、哺乳期禁用，中重度肝肾损伤者慎用",
-                        "需避孕至停药后4天"
-                    ],
-                    "usage": "空腹⼝服，推荐剂量5mg/次，每⽇1次，疗程≤14天。"
-                  }
-
-            ]
-}
+    "key_medication_reminders": "1. 48小时黄金期：抗病毒药越早用效果越好，超过48小时的重症患者仍可尝试。\n2. 处方药限制：所有抗病毒药均需医生开具，不可自行购买。\n3. 避免混合用药：\n   ◦ 玛巴洛沙韦忌与乳制品/钙剂同服；\n   ◦ 退热药不与中成药随意联用。",
+    "important_reminders": "1. 高危人群优先：老年人、慢性病患者、婴幼儿出现高热不退、呼吸急促时需立即就医。",
+    "medicines": [
+      {
+        "id": "20",
+        "name": "扎那米韦",
+        "spec": "20mg/吸（吸入粉雾剂）",
+        "price": "180",
+        "quantity": "5吸/盒",
+        "pictureUrl": "https://5b0988e595225.cdn.sohucs.com/images/20171228/bfef647bbf794441a281c5af973765e4.jpeg",
+        "applicable_population": "成人及7岁以上儿童甲型和乙型流感患者",
+        "advantage": "神经氨酸酶抑制剂，直接作用于呼吸道病毒复制部位，起效快",
+        "notes": [
+          "慢性阻塞性肺病/哮喘患者可能引发支气管痉挛",
+          "需使用专用吸入器（DISKHALER）",
+          "对乳糖过敏者禁用（含乳糖载体）",
+          "症状出现后48小时内使用效果最佳"
+        ],
+        "usage": "10mg/次（2吸），每日2次，间隔12小时，疗程5天"
+      },
+      {
+        "id": "21",
+        "name": "盐酸阿比多尔",
+        "spec": "0.1g*10片/盒",
+        "price": "68",
+        "quantity": "1盒",
+        "pictureUrl": "https://img2.baidu.com/it/u=3219529981,3236563745&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
+        "applicable_population": "成人及经评估的儿童流感患者",
+        "advantage": "双重阻断病毒进入细胞，兼具免疫调节作用",
+        "notes": [
+          "心动过缓患者慎用",
+          "可能引起血清转氨酶升高",
+          "孕妇及哺乳期妇女慎用",
+          "食物不影响吸收，餐前餐后均可服用"
+        ],
+        "usage": "0.2g/次，每日3次，疗程5天"
+      }
+    ]
+  }

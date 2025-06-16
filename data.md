@@ -1,50 +1,4 @@
-```json
 
-```
-
-```json
-{
-    "testItems": [{
-          "name": "新冠",
-          "itemCode":"covid19",
-          "result": "阳性",
-    "riskLevel": "高风险",
-    "referenceRange":"阴性"},
-    {
-          "name": "甲流",
-          "itemCode":"fluA",
-          "result": "阴性",
-    "riskLevel": "低风险",
-    "referenceRange":"阴性"},
-    {
-          "name": "乙流",
-          "itemCode":"fluB",
-          "result": "阳性",
-    "riskLevel": "高风险",
-    "referenceRange":"阴性"}
-    ],
-    "testTime": "2022-01-01 00:00:00",
-
-    "suggestion": "建议多休息，多喝水，保持室内通风，必要时就医。",
-    "important_reminders": "重要提醒",
-    "medicines": [ {  "id": "1",
-                  "name": "布洛芬",
-                  "spec": "0.2g*10片",
-                  "price": "15.8",
-                  "quantity": "1",
-                   "pictureUrl":"",
-                    "applicable_population": "轻中症成人高危患者（发病5天内）",
-                    "advantage": "药物相互作用较少，适用于无法使用Paxlovid的患者",
-                    "notes": [
-                     "孕妇、哺乳期禁用，中重度肝肾损伤者慎用",
-                        "需避孕至停药后4天"
-                    ],
-                    "usage": "空腹⼝服，推荐剂量5mg/次，每⽇1次，疗程≤14天。"
-                  }
-
-            ]
-}
-```
 
 药物名称
 
@@ -70,25 +24,14 @@
 
 ```json
 [
-    {
-        "id": "1",
-        "name": "奈玛特韦/利托那韦",
-        "spec": "150mg/100mg*30片",
-        "price": "2300",
-        "quantity": "1",
-        "pictureUrl": "",
-        "applicable_population": "轻中型且伴重症高风险因素的成人（发病5天内）",
-        "advantage": "抑制3CL蛋白酶，住院/死亡风险降低",
-        "notes": ["重度肝肾功能不全禁用，中度肾损需减量:", "与50+种药物存在相互作用（如他汀类、抗凝药）"],
-        "usage": "奈玛特韦300mg+利托那韦100mg，每12小时1次，疗程5天}"
-    },
+
     {
         "id": "2",
         "name": "阿兹夫定",
         "spec": "1mg*35片",
         "price": "270",
         "quantity": "1",
-        "pictureUrl": "",
+        "pictureUrl": "https://img0.baidu.com/it/u=707478134,3320234689&fm=253&fmt=auto?w=1200&h=800",
         "applicable_population": "普通型新冠成人患者（尤其高病毒载量",
         "advantage": "国产核苷类似物，抑制RNA合成:}",
         "notes": ["孕妇/哺乳期禁用，中重度肝肾损伤慎用:", "需避孕至停药后4天:"],
@@ -172,7 +115,7 @@
         "spec": "75mg*10粒",
         "price": "98",
         "quantity": "1",
-        "pictureUrl": "",
+        "pictureUrl": "https://wx4.sinaimg.cn/mw690/afaa23fbly1hxit8tokzyj20zk0zkdku.jpg",
         "applicable_population": "甲/乙流患者（发病48小时内最佳）",
         "advantage": "神经氨酸酶抑制剂，流感一线用药",
         "notes": ["可能引起呕吐等胃肠道反应", "肾功能不全需调整剂量"],
@@ -184,36 +127,13 @@
         "spec": "20mg*2片",
         "price": "220",
         "quantity": "1",
-        "pictureUrl": "",
+        "pictureUrl": "https://imgcdn.baiji.com.cn/images/202107/source_img/19094_P_1625797968182.jpg",
         "applicable_population": "5岁以上且体重≥20kg的流感患者",
         "advantage": "全程仅需单次给药:",
         "notes": ["避免与乳制品同服", "妊娠期安全性数据有限"],
         "usage": "体重40-80kg用40mg；＞80kg用80mg（单次）"
     },
-        {
-            "id": "11",
-            "name": "扎那米韦",
-            "spec": "5mg/泡",
-            "price": "156",
-            "quantity": "1",
-            "pictureUrl": "",
-            "applicable_population": "7岁以上青少年及成人流感患者",
-            "advantage": "吸入给药直达呼吸道，起效迅速:",
-            "notes": ["哮喘/慢阻肺患者禁用", "可能诱发支气管痉挛:"],
-            "usage": "吸入10mg/次，每日2次，疗程5天"
-        },
-        {
-            "id": "12",
-            "name": "盐酸阿比多尔",
-            "spec": "0.1g*10片",
-            "price": "68",
-            "quantity": "1",
-            "pictureUrl": "",
-            "applicable_population": "成人及经评估的儿童流感患者",
-            "advantage": "双重阻断病毒进入细胞:",
-            "notes": ["心动过缓患者慎用", "可能引起血清转氨酶升高"],
-            "usage": "0.2g/次，每日3次，疗程5天"
-        },
+  
         {
             "id": "13",
             "name": "乙酰半胱氨酸",
@@ -292,7 +212,7 @@
     "spec": "150mg/100mg*30片（组合包装）",
     "price": "2960",
     "quantity": "1盒",
-    "pictureUrl": "",
+    "pictureUrl": "https://img0.baidu.com/it/u=1505869625,2607353845&fm=253&fmt=auto&app=138&f=JPEG?w=813&h=500",
     "applicable_population": "成人及12岁以上（体重≥40kg）伴有进展为重症高风险因素的轻至中度COVID-19患者",
     "advantage": "抑制新冠病毒3CL蛋白酶，阻断病毒复制，降低住院或死亡风险达87.8%",
     "notes": [
@@ -302,7 +222,40 @@
         "HIV未控制者可能产生耐药性风险"
     ],
     "usage": "奈玛特韦300mg（2片） + 利托那韦100mg（1片），每12小时一次，连续5天"
+},   {
+    "id": "20",
+      "name": "扎那米韦",
+    "spec": "20mg/吸（吸入粉雾剂）",
+    "price": "180",
+    "quantity": "5吸/盒",
+    "pictureUrl": "https://5b0988e595225.cdn.sohucs.com/images/20171228/bfef647bbf794441a281c5af973765e4.jpeg",
+    "applicable_population": "成人及7岁以上儿童甲型和乙型流感患者",
+    "advantage": "神经氨酸酶抑制剂，直接作用于呼吸道病毒复制部位，起效快",
+    "notes": [
+        "慢性阻塞性肺病/哮喘患者可能引发支气管痉挛",
+        "需使用专用吸入器（DISKHALER）",
+        "对乳糖过敏者禁用（含乳糖载体）",
+        "症状出现后48小时内使用效果最佳"
+    ],
+    "usage": "10mg/次（2吸），每日2次，间隔12小时，疗程5天"
+    },{
+    "id": "21",
+    "name": "盐酸阿比多尔",
+    "spec": "0.1g*10片/盒",
+    "price": "68",
+    "quantity": "1盒",
+    "pictureUrl": "https://img2.baidu.com/it/u=3219529981,3236563745&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
+    "applicable_population": "成人及经评估的儿童流感患者",
+    "advantage": "双重阻断病毒进入细胞，兼具免疫调节作用",
+    "notes": [
+        "心动过缓患者慎用",
+        "可能引起血清转氨酶升高",
+        "孕妇及哺乳期妇女慎用",
+        "食物不影响吸收，餐前餐后均可服用"
+    ],
+    "usage": "0.2g/次，每日3次，疗程5天"
 }
+
 ]
 ```
 
@@ -420,6 +373,8 @@
 
 1. ⾼危⼈群优先：⽼年⼈、慢性病患者、婴幼⼉出现⾼热不退、呼吸急促时需⽴即就医。
 
+
+
 ### 检测项目
 
 甲流 阳性
@@ -522,6 +477,11 @@
    ◦ 出现症状后⽴即就医，评估是否需抗病毒治疗。
 3. 重症患者：
    ◦ 需住院接受综合治疗（如糖⽪质激素、免疫调节剂等）。
+
+
+
+
+
 
 ### 检测项目
 
