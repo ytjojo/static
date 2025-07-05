@@ -11,7 +11,7 @@
         "name": "甲流",
         "itemCode": "fluA",
         "result": "阳性",
-        "riskLevel": "低风险",
+        "riskLevel": "高风险",
         "referenceRange": "阴性"
       },
       {
